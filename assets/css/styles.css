@@ -1,0 +1,12 @@
+body {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+}
+
+main {
+    flex-grow: 1; /* usado para empurrar o footer para baixo, 
+    não importando o tamanho do conteudo da pagina */
+}
+
