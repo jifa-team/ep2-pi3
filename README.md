@@ -41,7 +41,7 @@ jifa-odonto/
 
 ### Fluxo de Trabalho Simplificado
 - **1. Clonar o Projeto:**
-git clone https://github.com/jifa-team/ep1-pi3.git  
+git clone https://github.com/jifa-team/ep2-pi3.git
 - **2. Criar Nova Branch:**
 git checkout -b nome-da-sua-branch
 - **3. Fazer um Commit**
