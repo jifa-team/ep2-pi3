@@ -14,8 +14,6 @@ document.addEventListener("DOMContentLoaded", function () {
 
 function toggleMenu() {
     document.querySelector("header").classList.toggle("menu-open");
-}
+} 
 
-document.addEventListener("DOMContentLoaded", function () {
-    document.querySelector(".menu-toggle").addEventListener("click", toggleMenu);
-});
+//funcao do click no menu toggle estava dando ruim em execução, depois vejo se vai continuar sendo necessária ou se podemos deixar ela fora pra sempre (usada no mobile) 
