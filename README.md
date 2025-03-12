@@ -7,24 +7,32 @@ Este projeto é um sistema web para uma clínica odontológica, desenvolvido com
 ## Estrutura de Pastas
 ```
 jifa-odonto/
-├── index.html             # Página inicial (🏠 views/home)
-├── README.md              # Documentação do projeto
-├── assets/                # Pasta para recursos estáticos
-│   ├── css/               # Arquivos CSS
-│   │   ├── styles.css     # Estilos globais
-│   │   ├── login.css      # Estilos específicos para a página de login
-│   │   └── cadastro.css   # Estilos específicos para a página de cadastro
-│   ├── js/                # Arquivos JavaScript
-│   │   ├── main.js        # Scripts globais
-│   │   ├── login.js       # Scripts específicos para a página de login
-│   │   └── cadastro.js    # Scripts específicos para a página de cadastro
-│   └── images/            # Imagens utilizadas no projeto
-├── views/                 # Pasta para páginas relacionadas ao views
-│   ├── login/             # Páginas de login
-│   │   ├── index.html     # Página de login (🔐 views/login)
-│   │   └── error.html     # Página de erro de login (⚠️ views/login/error)
-│   └── cadastro/          # Página de cadastro
-│       └── index.html     # Página de cadastro (📝 views/cadastro)
+├── index.html              # Página inicial (🏠 views/home)
+├── README.md               # Documentação do projeto
+├── assets/                 # Pasta para recursos estáticos
+│   ├── css/                # Arquivos CSS
+│   │   ├── styles.css      # Estilos globais
+│   │   ├── footer.css      # Estilos aplicados ao footer
+│   │   ├── header.css      # Estilos aplicados ao header
+│   │   ├── login.css       # Estilos específicos para a página de login
+│   │   └── cadastro.css    # Estilos específicos para a página de cadastro
+│   ├── dados/              # Pasta de dados JSON
+│   │   ├── dados.json      # Arquivo com dados json para validação de formulário
+│   ├── js/                 # Arquivos JavaScript
+│   │   ├── main.js         # Scripts globais
+│   │   ├── login.js        # Scripts específicos para a página de login
+│   │   └── cadastro.js     # Scripts específicos para a página de cadastro
+│   │   └── padronizacao.js # Scripts que faz o carregamento do Header e Footer nos placeholders
+│   └── images/             # Imagens utilizadas no projeto
+├── views/                  # Pasta para páginas relacionadas ao views
+│   ├── templates/          # Pasta com os templates padronizados
+│   │   ├── header.html     # Template do Header padronizado
+│   │   ├── footer.html     # Template do Footer padronizado
+│   ├── login/              # Páginas de login
+│   │   ├── index.html      # Página de login (🔐 views/login)
+│   │   └── error.html      # Página de erro de login (⚠️ views/login/error)
+│   └── cadastro/           # Página de cadastro
+│       └── index.html      # Página de cadastro (📝 views/cadastro)
 └── ...
 ```
 
