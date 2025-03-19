@@ -8,7 +8,12 @@
     <link rel="stylesheet" href="/assets/css/header.css">
     <link rel="stylesheet" href="/assets/css/login.css">
     <link rel="stylesheet" href="/assets/css/footer.css">
-</head>
+    <script src="https://kit.fontawesome.com/8372ccf781.js" crossorigin="anonymous" defer></script> <!-- Biblioteca de ícones -->
+    <script src="/assets/js/padronizacao.js" defer></script> <!-- Importa o script que carrega os componentes header e footer -->
+    <!--Scripts com "defer" aconselha-se o uso no head, pois o defer vai garantir que o script seja executado mais cedo.
+    Removi o defer no final do body, o script espera que o conteudo do DOM já esteja carregado, mas ao chegar no script, já é pra 
+    tudo ter carregado.-->
+  </head>
 <body>
     <!-- Placeholder para o Header -->
     <div id="header-placeholder"></div>
@@ -65,8 +70,6 @@
     <!-- Placeholder para o Footer -->
     <div id="footer-placeholder"></div>
 
-    <script src="https://kit.fontawesome.com/8372ccf781.js" crossorigin="anonymous"></script> <!-- Biblioteca de ícones -->
-    <script src="/assets/js/padronizacao.js" defer></script> <!-- Importa o script que carrega os componentes header e footer -->
-    <script src="/assets/js/login.js" defer></script> <!-- Importa o script que vai carregar a lógica do login -->
+    <script src="/assets/js/login.js"></script> <!-- Importa o script que vai carregar a lógica do login -->
 </body>
 </html>
