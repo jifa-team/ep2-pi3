@@ -14,6 +14,7 @@ jifa-odonto/
 │   │   ├── styles.css      # Estilos globais
 │   │   ├── footer.css      # Estilos aplicados ao footer
 │   │   ├── header.css      # Estilos aplicados ao header
+│   │   ├── Home.css        # Estilos específicos para a página de Home
 │   │   ├── login.css       # Estilos específicos para a página de login
 │   │   └── cadastro.css    # Estilos específicos para a página de cadastro
 │   ├── dados/              # Pasta de dados JSON
@@ -33,6 +34,10 @@ jifa-odonto/
 │   │   └── error.html      # Página de erro de login (⚠️ views/login/error)
 │   └── cadastro/           # Página de cadastro
 │       └── index.html      # Página de cadastro (📝 views/cadastro)
+│   └── home/               # Página de home
+│       └── index.html      # Página de home (📝 views/home)
+│   └── quemsomos/          # Página de quem somos
+│       └── index.html      # Página de home (📝 views/quem somos)
 └── ...
 ```
 
