@@ -163,6 +163,106 @@
     transform: scale(1.05);
 }
 
+.talk-to-us {
+    text-align: center;
+    margin-top: 50px;
+    padding: 40px 20px;
+}
+
+.talk-to-us h2 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+    color: var(--color-dark);
+}
+
+/* Container para alinhar os itens na vertical */
+.contact {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+/* Card de cada item */
+.card {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    width: 100%;
+    padding: 15px 20px;
+    background: rgba(241, 238, 238, 0.2);
+    border-radius: 100px 0px 100px 0px;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Ícones dentro das caixas */
+.card i {
+    font-size: 1.8rem;
+    color: var(--color-button-hover);
+}
+
+/* Texto dentro das caixas */
+.card h3 {
+    font-size: 1.2rem;
+    color: var(--color-dark);
+    margin-bottom: 5px;
+}
+
+.card p {
+    font-size: 1rem;
+    color: var(--text-color);
+    margin: 2px 0;
+}
+
+/* Seção CTA */
+.cta-section {
+    text-align: center;
+    padding: 60px 20px;
+    background: var(--color-background);
+    color: var(--color-dark);
+    border-radius: 30px;
+    margin: 50px auto;
+    max-width: 800px;
+    box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.2);
+}
+
+/* Título do CTA */
+.cta-section h2 {
+    font-size: 2.5rem;
+    margin-bottom: 15px;
+    font-weight: bold;
+}
+
+/* Texto complementar */
+.cta-section p {
+    font-size: 1.2rem;
+    margin-bottom: 30px;
+}
+
+/* Botão de agendamento */
+.btn-avaliacao button {
+    background: #313131;
+    color: white;
+    font-size: 1.5rem;
+    font-weight: bold;
+    padding: 15px 40px;
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: background 0.3s ease-in-out, transform 0.2s;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+/* Efeito Hover */
+.btn-avaliacao button:hover {
+    background: #4338ca;
+    transform: scale(1.05);
+}
+
+
 
 
 
