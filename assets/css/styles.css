@@ -13,17 +13,9 @@
     padding: 20px;
 }
 
-/* 
-estava pensando a gente adotar algo no estilo abaixo o :root para faciltar o uso das coisas padrão 
-
-para usar bastaria chamar a variável no css como por exemplo: color: var(--primary-color) ou font-size: var(--font-size-md) ou font-family: var(--font-primary)
-
-*/
-
-/* 
 :root{
 
-    /*Cores
+    /*Cores*/
     --primary-color: #FFFFFF;
     --secondary-color: #6C757D;
     --tertiary-color: #717275;
@@ -34,22 +26,22 @@ para usar bastaria chamar a variável no css como por exemplo: color: var(--prim
     --color-border: #ddd;  (Bordas)
     --color-error: #dc2626; (Vermelho erro)
     --color-button-hover: #4338ca; (Hover botão)
-    --color-button-disabled: #a5a5a5; (Botão) desabilitado */
+    --color-button-disabled: #a5a5a5; (Botão) desabilitado 
 
-    /*  Espaçamentos 
+    /*  Espaçamentos */
     --spacing-xs: 0.5rem;  (8px)
     --spacing-sm: 0.75rem; (12px)
     --spacing-md: 1rem;    (16px)
     --spacing-lg: 1.5rem;  (24px)
     --spacing-xl: 2rem;    (32px)
 
-    /* Tipografia 
+    /* Tipografia */
     --font-primary: 'Montserrat', sans-serif;
     --font-size-sm: 0.875rem; (14px)
     --font-size-md: 1rem; (16px)
     --font-size-lg: 1.5rem; (24px)
  }
-    */
+   
 
 body {
     font-family: 'Montserrat', sans-serif;    
