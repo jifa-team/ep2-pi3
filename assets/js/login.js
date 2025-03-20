@@ -95,8 +95,7 @@ document.addEventListener('DOMContentLoaded', function() {
     if (createAccountLink) {
         createAccountLink.addEventListener('click', function(event) {
             event.preventDefault();
-            alert('vai levar pra pagina de cadastro quando eu fizer ela kkkkkkkkkkkkkk'); 
-            // window.location.href = 'cadastro.html';
+            window.location.href = 'cadastro.html';
         });
     }
 });
