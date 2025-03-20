@@ -262,6 +262,92 @@
     transform: scale(1.05);
 }
 
+/* Responsividade para telas menores que 768px */
+@media (width < 768px) {
+    
+    /* Ajuste no container principal */
+    .container {
+        width: 95%;
+        padding: 15px;
+    }
+
+    /* Seção de localização */
+    .our-location {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .map {
+        height: 300px;
+    }
+
+    .address-map {
+        font-size: 0.9rem;
+        padding: 8px;
+    }
+
+    /* Apresentação da clínica */
+    .local-presentation {
+        flex-direction: column;
+        text-align: center;
+        gap: 20px;
+        padding: 20px;
+    }
+
+    .txt-office h2 {
+        font-size: 1.8rem;
+    }
+
+    .txt-office p {
+        font-size: 1rem;
+        line-height: 1.6;
+    }
+
+    /* Seção de Instalações (Carrossel) */
+    .images-facilities {
+        flex-direction: column;
+        align-items: center;
+        gap: 10px;
+    }
+
+    .img-installation {
+        max-width: 100%;
+        margin-bottom: 10px
+    }
+
+    /* Fale Conosco */
+    .talk-to-us .contact {
+        flex-direction: column;
+        gap: 15px;
+    }
+
+    .card {
+        flex-direction: column;
+        text-align: center;
+        padding: 20px;
+    }
+
+    /* Call to Action */
+    .cta-section {
+        padding: 40px 20px;
+    }
+
+    .cta-section h2 {
+        font-size: 2rem;
+    }
+
+    .cta-section p {
+        font-size: 1rem;
+    }
+
+    .btn-avaliacao button {
+        width: 100%;
+        font-size: 1.3rem;
+        padding: 12px;
+    }
+}
+
+
 
 
 
