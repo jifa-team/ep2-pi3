@@ -1,0 +1,38 @@
+@import url('styles.css');
+
+.user-profile {
+    position: fixed;
+    top: 80px; /* Distância do topo */
+    right: 20px;  
+    width: 220px; 
+    background: #fff; 
+    border-radius: 12px; 
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1); 
+    padding: 12px; 
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.user-profile img {
+    width: 45px; 
+    height: 45px;
+    border-radius: 50%;
+    object-fit: cover; /* Para a imagem não distorcer */
+}
+
+.user-profile .profile-info {
+    display: flex;
+    flex-direction: column;
+}
+
+.user-profile .profile-info p {
+    font-size: var(--font-size-sm); 
+    color: var(--color-text-secondary);
+}
+
+.user-profile .profile-info strong {
+    font-size: var(--font-size-md); 
+    color: var(--color-text-primary)
+    text-align: center
+}
