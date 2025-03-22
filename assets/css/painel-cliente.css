@@ -1,5 +1,6 @@
 @import url('styles.css');
 
+/* Seção de perfil do usuário  - .user-profile*/
 .user-profile {
     position: fixed;
     top: 80px; /* Distância do topo */
@@ -33,6 +34,90 @@
 
 .user-profile .profile-info strong {
     font-size: var(--font-size-md); 
-    color: var(--color-text-primary)
-    text-align: center
+    color: var(--color-text-primary);   
+}
+
+.latest-activities, .system-features, .blog {
+    margin: 0 auto;
+    margin-bottom: var(--spacing-lg); /* Espaçamento entre as seções */
+}
+
+/* Seção de atividades recentes - .latest-activities */
+.latest-activities {
+    background: #ffffff; 
+    border-radius: 8px; 
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1); 
+    padding: 16px; 
+    width: 100%;
+    max-width: 800px; 
+}
+
+.latest-activities h2 {
+    display: flex;
+    align-items: center;
+    font-size: 18px;
+    color: #333333;
+    margin-bottom: 12px;
+}
+
+.latest-activities h2 i {
+    margin-right: 8px; /* Ícone espaçado do título */
+}
+
+.activity-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;    
+}
+
+.activity-list li {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 0;
+    border-bottom: 1px solid #e0e0e0;
+}
+
+/* Último item da lista não terá borda inferior */
+.activity-list li:last-child {
+    border-bottom: none;
+}
+
+.activity-list .activity-description {
+    font-size: var(--font-size-md);
+    font-weight: 600;
+    text-decoration: none;   
+    flex: 1; /* Permite que ocupe espaço disponível */
+    margin-right: var(--spacing-sm); /* Espaçamento entre descrição e data */
+}
+
+.activity-list .activity-date {
+    font-size: var(--font-size-md);
+    font-weight: 600;
+    width: 600px; /* Largura fixa para alinhar todas as datas */   
+    text-align: center; /* Centraliza o texto da data */
+    margin-right: var(--spacing-md); /* Espaçamento entre data e ícone */
+}
+
+.activity-list i {
+    font-size: var(--font-size-md);
+}
+
+/* Estilização específica para cada tipo de atividade */
+.activity-consultation .activity-description, 
+.activity-consultation .activity-date, 
+.activity-consultation i {
+    color: #007bff; /* Azul */
+}
+
+.activity-billing .activity-description, 
+.activity-billing .activity-date, 
+.activity-billing i {
+    color: #f4b400; /* Amarelo */
+}
+
+.activity-prescriptions .activity-description, 
+.activity-prescriptions .activity-date, 
+.activity-prescriptions i {
+    color: #ff6f00; /* Laranja */
 }
