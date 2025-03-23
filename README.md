@@ -29,6 +29,11 @@ jifa-odonto/
 │   └── images/             # Imagens utilizadas no projeto
 │       └── home/           # Imagens específicas da home
 │       └── quemsomos/      # Imagens específicas da página quem somos
+│       └── clinica/         # Imagens específicas da página clínica
+│           ├── apresentacao-clinica.png     # Imagem do plano coletivo
+│           ├── img-instalacao-1.png    # imagem da instalação 1
+│           ├── img-instalacao-2.png    # imagem da instalação 2
+│           ├── img-instalacao-3.png    # imagem da instalação 3
 │       └── planos/         # Imagens específicas dos planos
 │           ├── img.png     # Imagem do plano coletivo
 │           ├── img1.png    # Benefício 1
