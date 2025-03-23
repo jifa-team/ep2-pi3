@@ -1,7 +1,7 @@
 // Botão "Usar localização atual"
 document.querySelector('.location-button').addEventListener('click', function(event) {
     event.preventDefault(); // Impede o redirecionamento
-    alert("Funcionalidade de localização ainda não implementada.");
+    alert("Funcionalidade de localização ainda não implementada");
 });
 
 // Botão "Avalie agora"
