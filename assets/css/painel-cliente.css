@@ -56,7 +56,7 @@
     display: flex;
     align-items: center;
     font-size: 18px;
-    color: #333333;
+    color: var(--color-dark);
     margin-bottom: 12px;
 }
 
@@ -121,3 +121,114 @@
 .activity-prescriptions i {
     color: #ff6f00; /* Laranja */
 }
+
+/* Seção de funcionalidades do sistema - .system-features */
+.system-features {
+    background: #ffffff; 
+    border-radius: 8px; 
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1); 
+    padding: 16px; 
+    width: 100%;
+    max-width: 800px; 
+    margin-top: 30px; /* Espaçamento entre as seções */
+}
+
+/* Cabeçalho da seção */
+.system-features h2 {
+    display: flex;
+    align-items: center;
+    font-size: 18px;
+    color: var(--color-dark);
+    margin-bottom: 12px;    
+}
+
+.system-features .space {
+    margin-right: 8px; /* Ícone espaçado do título */
+}
+
+
+/* Botão de novo agendamento */
+.btn-new-service {
+    background-color: #007bff;
+    color: #ffffff;
+    border: none;
+    padding: 8px 16px;
+    font-size: 14px;
+    font-weight: bold;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background 0.3s ease;
+    margin-left: auto; /* Empurra o botão para a direita */
+    display: block; /* Garante que o botão seja tratado como um bloco */
+}
+
+.btn-new-service:hover {
+    background-color: #0056b3;
+}
+
+/* Container das funcionalidades */
+.features {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); /* 3 cards por linha */
+    gap: 16px;
+    margin-top: 16px; /* Espaço entre o botão e os cards */
+}
+
+/* Card de funcionalidade */
+.feature {
+    display: flex;
+    align-items: center;
+    background: #f8f9fa;
+    border-radius: 8px;
+    padding: 12px;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s ease-in-out;
+}
+
+.feature:hover {
+    transform: translateY(-2px);
+}
+
+/* Ícone dentro do box */
+.box-feature {
+    width: 50px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 8px;
+    margin-right: 12px;
+}
+
+/* Ícones com cor destacada */
+.box-feature i {
+    font-size: 20px;
+    color: #ffffff;
+}
+
+/* Cores específicas para cada funcionalidade */
+.feature:nth-child(1) .box-feature { background:rgba(74, 145, 226, 0.57); } /* Agendamentos */
+.feature:nth-child(1) i { color: #4A90E2; }
+
+.feature:nth-child(2) .box-feature { background:rgba(106, 191, 105, 0.57); } /* Histórico */
+.feature:nth-child(2) i { color: #6ABF69; }
+
+.feature:nth-child(3) .box-feature { background:rgba(245, 165, 35, 0.57); } /* Prontuário */
+.feature:nth-child(3) i { color: #F5A623; }
+
+.feature:nth-child(4) .box-feature { background:rgba(141, 68, 173, 0.57); } /* Tratamentos */
+.feature:nth-child(4) i { color: #8E44AD; }
+
+.feature:nth-child(5) .box-feature { background:rgba(248, 230, 28, 0.57); } /* Pagamentos */
+.feature:nth-child(5) i { color: #F8E71C; }
+
+.feature:nth-child(6) .box-feature { background:rgba(208, 2, 26, 0.57); } /* Notificações */
+.feature:nth-child(6) i { color: #D0021B; }
+
+/* Descrição da funcionalidade */
+.feature p {
+    font-size: var(--font-size-md);
+    font-weight: 600;
+    color: var(--color-text-primary);
+}
+
