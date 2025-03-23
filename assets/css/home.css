@@ -1,17 +1,16 @@
 /* Estilos gerais */
 body {
-    font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
     background-color: #f4f4f4;
-    color: #333;
+    color: #2B446C;
     width: 100%;
     overflow-x: hidden;
     overflow-y: auto;
     display: flex;
     flex-direction: column;
     min-height: 100vh;
-    position: relative; /* Adicionado para garantir que o z-index funcione corretamente */
+    position: relative; /* Adicionado para garantir que o z-index funcione corretamente */ 
 }
 
 /* Estilos para o contêiner de fundo */
@@ -77,7 +76,6 @@ main {
 
 .welcome-text h1 {
     color: #000;
-    font-family: Montserrat;
     font-size: 20px;
     font-weight: 700;
     line-height: 30px;
@@ -86,7 +84,6 @@ main {
 
 .welcome-text p {
     color: #000;
-    font-family: Montserrat;
     font-size: 32px;
     font-weight: 700;
     line-height: 30px;
@@ -109,9 +106,8 @@ main {
 }
 
 .welcome-content h2 {
-    color: #000;
+    color: #2B446C;
     text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-    font-family: var(--sds-typography-heading-font-family);
     font-size: 48px;
     font-weight: var(--sds-typography-heading-font-weight);
     line-height: 120%;
@@ -122,14 +118,13 @@ main {
 .welcome-content button {
     width: 490px;
     height: 98px;
-    color: #1E1E1E;
+    color: #2B446C; 
     text-align: center;
-    font-family: Montserrat;
     font-size: 24px;
-    font-weight: 400;
+    font-weight: bold; 
     line-height: 45px;
     letter-spacing: 2px;
-    background-color: #fff;
+    background-color: #fff; 
     border: 1px solid #1E1E1E;
     cursor: pointer;
     margin-top: 20px;
@@ -146,10 +141,9 @@ main {
 }
 
 .welcome-content button:hover {
-    background-color: #D9D9D9;
+    background-color: #70a3a7; /* Cor mais escura para o hover */
 }
 
-/* Estilos para a seção de perguntas frequentes e feedback */
 /* Estilos para a seção de perguntas frequentes e feedback */
 .faq-feedback-container {
     display: flex;
@@ -165,8 +159,7 @@ main {
 }
 
 .faq h2 {
-    color: #010101;
-    font-family: Montserrat;
+    color: #2B446C;
     font-size: 32px;
     font-weight: 700; /* Negrito */
     line-height: 45px;
@@ -181,8 +174,7 @@ main {
 
 .faq li {
     width: 100%;
-    color: #000;
-    font-family: Montserrat;
+    color: #2B446C;
     font-size: 20px; /* Tamanho maior para as perguntas */
     font-weight: 400;
     line-height: 120%;
@@ -202,8 +194,7 @@ main {
 }
 
 .feedback h2 {
-    color: #010101;
-    font-family: Montserrat;
+    color: #2B446C;
     font-size: 32px;
     font-weight: 700; /* Negrito */
     line-height: 45px;
@@ -214,33 +205,32 @@ main {
 .stars {
     display: flex;
     justify-content: center;
-    gap: 10px; /* Espaço maior entre as estrelas */
+    gap: 10px; 
     margin-bottom: 20px;
 }
 
 .stars img {
-    width: 40px; /* Estrelas maiores */
+    width: 40px; 
     height: 40px;
     cursor: pointer; /* Indica que são clicáveis */
 }
 
 .feedback button {
-    color: #010101;
-    font-family: Montserrat;
-    font-size: 30px; /* Tamanho menor para o botão */
+    color: #2B446C;
+    font-size: 30px; 
     font-weight: 700; /* Negrito */
     line-height: 45px;
     letter-spacing: 2px;
-    background-color: rgba(217, 217, 217, 0.9); /* Fundo semi-transparente */
+    background-color: #8CCCD2; /* Fundo semi-transparente */
     border: none;
-    padding: 10px 30px; /* Mais espaço interno */
+    padding: 10px 30px; 
     border-radius: 20px; /* Bordas mais arredondadas */
     cursor: pointer;
     transition: background-color 0.3s ease; /* Efeito de transição suave */
 }
 
 .feedback button:hover {
-    background-color: rgba(192, 192, 192, 0.9); /* Fundo semi-transparente ao passar o mouse */
+    background-color: #8CCCD2; /* Fundo semi-transparente ao passar o mouse */
 }
 
 /* Estilos para a seção do blog */
@@ -253,7 +243,6 @@ main {
 
 .blog h2 {
     color: #010101;
-    font-family: Montserrat;
     font-size: 32px;
     font-weight: 400;
     line-height: 45px;
@@ -287,8 +276,7 @@ main {
     margin-right: auto;
 }
 
-
-/* Responsividade para a Primeira Tela (Home) */
+/* Responsividade para a Tela (Home) */
 @media (max-width: 480px) {
     .welcome {
         padding: 20px 10px;
