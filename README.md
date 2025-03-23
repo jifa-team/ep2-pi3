@@ -14,8 +14,10 @@ jifa-odonto/
 │   │   ├── styles.css      # Estilos globais
 │   │   ├── footer.css      # Estilos aplicados ao footer
 │   │   ├── header.css      # Estilos aplicados ao header
-│   │   ├── Home.css        # Estilos específicos para a página de Home
+│   │   ├── home.css        # Estilos específicos para a página de home
 │   │   ├── login.css       # Estilos específicos para a página de login
+│   │   ├── clinica.css       # Estilos específicos para a página clínica
+│   │   ├── painel-cliente.css  # Estilos específicos para a página painel-cliente
 │   │   └── cadastro.css    # Estilos específicos para a página de cadastro
 │   ├── dados/              # Pasta de dados JSON
 │   │   ├── dados.json      # Arquivo com dados json para validação de formulário
@@ -43,6 +45,10 @@ jifa-odonto/
 │       └── index.html      # Página de home (📝 views/home)
 │   └── quemsomos/          # Página de quem somos
 │       └── index.html      # Página de home (📝 views/quem somos)
+│   └── clinica/          # Página clínica
+│       └── index.html      # Página de home (📝 views/clinica)
+│   └── painel-cliente/          # Página painel do cliente
+│       └── index.html      # Página de home (📝 views/painel-cliente)
 └── └── planos/             # Pasta dos planos
 │       ├── aquisicao.html  # Página de aquisição do plano escolhido (🛒 views/planos)
 │       ├── plano-coletivo.html   # Página do plano coletivo, benefícios e carências           
@@ -84,6 +90,8 @@ git push origin nome-da-sua-branch
 
 - **🔐 Login**: Página de login para clientes.
 - **📝 Cadastro**: Página de cadastro de novos clientes.
+- **🦷 Clínica**: Página de apresentação da estrutura da clínica. 
+- **📊 Painel do Cliente**: Página para acessar área logada do sistema.
 
 ---
 
