@@ -27,11 +27,14 @@ jifa-odonto/
 │   │   └── cadastro.js     # Scripts específicos para a página de cadastro
 │   │   └── padronizacao.js # Scripts que faz o carregamento do Header e Footer nos placeholders
 │   └── images/             # Imagens utilizadas no projeto
+│       └── home/           # Imagens específicas da home
+│       └── quemsomos/      # Imagens específicas da página quem somos
 │       └── planos/         # Imagens específicas dos planos
 │           ├── img.png     # Imagem do plano coletivo
 │           ├── img1.png    # Benefício 1
 │           ├── img2.png    # Benefício 2
 │           └── img3.png    # Benefício 3
+│       └── videos/         # vídeo específico para uso na página quem somos 
 ├── views/                  # Pasta para páginas relacionadas ao views
 │   ├── templates/          # Pasta com os templates padronizados
 │   │   ├── header.html     # Template do Header padronizado
