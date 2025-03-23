@@ -34,6 +34,11 @@ jifa-odonto/
 │           ├── img-instalacao-1.png    # imagem da instalação 1
 │           ├── img-instalacao-2.png    # imagem da instalação 2
 │           ├── img-instalacao-3.png    # imagem da instalação 3
+│       └── painel-cliente/         # Imagens específicas da página painel do cliente
+│           ├── blog1-jifa.png     # blog post 1
+│           ├── blog2-jifa.png    # blog post 2
+│           ├── blog3-jifa.png    # blog post 3
+│           ├── profile.jpg    # imagem perfil do usuario
 │       └── planos/         # Imagens específicas dos planos
 │           ├── img.png     # Imagem do plano coletivo
 │           ├── img1.png    # Benefício 1
