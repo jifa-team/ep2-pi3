@@ -105,6 +105,9 @@ git push origin nome-da-sua-branch
 - **📝 Cadastro**: Página de cadastro de novos clientes.
 - **🦷 Clínica**: Página de apresentação da estrutura da clínica. 
 - **📊 Painel do Cliente**: Página para acessar área logada do sistema.
+- **📊 Planos**: Página de início dos planos de saúde ofertados pela Clínica.
+- **🦷 Tipos de Planos**: Página de tipos de planos de saúde ofertados pela Clínica e suas carências.
+- **💰 Aquisição de Planos**: Página de aquisição de planos de saúde ofertados pela Clínica e forma de pagamento.
 
 ---
 
