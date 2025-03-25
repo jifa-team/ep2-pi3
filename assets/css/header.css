@@ -17,7 +17,7 @@ header {
     left: 0;
     right: 0;
     z-index: 1000; /* Garante que o header fique acima de outros conteúdos */
-    width: calc(100% - 2.5rem);
+    width: 100%;    
 }
 
 /* Espaço para o header fixo */
