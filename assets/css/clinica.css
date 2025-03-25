@@ -81,7 +81,7 @@
 }
 
 .txt-office h2 {
-    color: var(--color-dark);
+    color:var(--color-section-title);
     font-size: 2rem;
     margin-bottom: 15px;
 }
@@ -113,7 +113,7 @@
 .facilities h2 {
     font-size: 2rem;
     margin-bottom: 20px;
-    color: var(--color-dark);
+    color: var(--color-section-title);
 }
 
 /* Estilização do carrossel */
@@ -172,7 +172,7 @@
 .talk-to-us h2 {
     font-size: 2rem;
     margin-bottom: 20px;
-    color: var(--color-dark);
+    color: var(--color-section-title);   
 }
 
 /* Container para alinhar os itens na vertical */
