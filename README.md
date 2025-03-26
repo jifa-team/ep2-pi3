@@ -29,7 +29,7 @@ jifa-odonto/
 │   └── images/             # Imagens utilizadas no projeto
 │       └── home/           # Imagens específicas da home
 │       └── quemsomos/      # Imagens específicas da página quem somos
-│       └── clinica/         # Imagens específicas da página clínica
+│       └── clinica/        # Imagens específicas da página clínica
 │           ├── apresentacao-clinica.png     # Imagem do plano coletivo
 │           ├── img-instalacao-1.png    # imagem da instalação 1
 │           ├── img-instalacao-2.png    # imagem da instalação 2
@@ -45,32 +45,30 @@ jifa-odonto/
 │           ├── img2.png    # Benefício 2
 │           └── img3.png    # Benefício 3
 │       └── videos/         # vídeo específico para uso na página quem somos 
-├── views/                  # Pasta para páginas relacionadas ao views
-│   ├── templates/          # Pasta com os templates padronizados
-│   │   ├── header.html     # Template do Header padronizado
-│   │   ├── footer.html     # Template do Footer padronizado
-│   ├── login/              # Páginas de login
-│   │   ├── index.html      # Página de login (🔐 views/login)
-│   │   └── error.html      # Página de erro de login (⚠️ views/login/error)
-│   └── cadastro/           # Página de cadastro
-│       └── index.html      # Página de cadastro (📝 views/cadastro)
-│   └── home/               # Página de home
-│       └── index.html      # Página de home (📝 views/home)
-│   └── quemsomos/          # Página de quem somos
-│       └── index.html      # Página de home (📝 views/quem somos)
-│   └── clinica/          # Página clínica
-│       └── index.html      # Página de home (📝 views/clinica)
-│   └── painel-cliente/          # Página painel do cliente
-│       └── index.html      # Página de home (📝 views/painel-cliente)
-└── └── planos/             # Pasta dos planos
-│       ├── aquisicao.html  # Página de aquisição do plano escolhido (🛒 views/planos)
-│       ├── plano-coletivo.html   # Página do plano coletivo, benefícios e carências           
-│       ├── plano-familiar.html   # Página do plano familiar, benefícios e carências          
-│       ├── plano-individual.html # Página do plano individual, benefícios e carências
-│       └── telainicio.html       # Página de início com os tipos de planos e benefícios gerais
+├── views/                    # Pasta para páginas relacionadas ao views
+│   ├── templates/            # Pasta com os templates padronizados
+│   │   ├── header.html       # Template do Header padronizado
+│   │   ├── footer.html       # Template do Footer padronizado
+│   ├── login                 # Página de login (🔐 views/login)
+│   ├── cadastro              # Página de cadastro (📝 views/cadastro)
+│   ├── home                  # Página de home (📝 views/home)
+│   ├── quemsomos             # Página de quem somos (📝 views/quem somos)
+│   ├── clinica/              # Página clínica (📝 views/clinica)
+│   ├── painel-cliente/       # Página painel do cliente (📝 views/painel-cliente)
+│   ├── aquisicao.html        # Página de aquisição do plano escolhido (🛒 views/planos)
+│   ├── plano-coletivo.html   # Página do plano coletivo, benefícios e carências           
+│   ├── plano-familiar.html   # Página do plano familiar, benefícios e carências          
+│   ├── plano-individual.html # Página do plano individual, benefícios e carências
+│   └── telainicio.html       # Página de início com os tipos de planos e benefícios gerais
 ```
 
 ---
+
+
+### Como utilizar o projeto?
+- **1. Clonar o Projeto:**
+git clone https://github.com/jifa-team/ep2-pi3.git
+- **2. Dentro do projeto, clique do mouse direito em alguma página dentro de "Views", e abra a página com o seu Live Server do VSCode!**
 
 ### Fluxo de Trabalho Simplificado
 - **1. Clonar o Projeto:**
@@ -105,6 +103,13 @@ git push origin nome-da-sua-branch
 - **📝 Cadastro**: Página de cadastro de novos clientes.
 - **🦷 Clínica**: Página de apresentação da estrutura da clínica. 
 - **📊 Painel do Cliente**: Página para acessar área logada do sistema.
+- **🏠 Home**: Página inicial do sistema, apresentando informações gerais.
+- **📄 Quem Somos**: Página institucional sobre a empresa.
+- **🛒 Aquisição de Planos**: Página para aquisição do plano escolhido.
+- **👥 Plano Coletivo**: Página com informações sobre o plano coletivo, benefícios e carências.
+- **👨‍👩‍👧 Plano Familiar**: Página com informações sobre o plano familiar, benefícios e carências.
+- **🧍 Plano Individual**: Página com informações sobre o plano individual, benefícios e carências.
+- **📌 Tela de Início**: Página inicial com apresentação dos tipos de planos e benefícios gerais.
 
 ---
 
