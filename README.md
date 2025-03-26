@@ -103,6 +103,7 @@ git push origin nome-da-sua-branch
 - **📝 Cadastro**: Página de cadastro de novos clientes.
 - **🦷 Clínica**: Página de apresentação da estrutura da clínica. 
 - **📊 Painel do Cliente**: Página para acessar área logada do sistema.
+<<<<<<< HEAD
 - **🏠 Home**: Página inicial do sistema, apresentando informações gerais.
 - **📄 Quem Somos**: Página institucional sobre a empresa.
 - **🛒 Aquisição de Planos**: Página para aquisição do plano escolhido.
@@ -110,6 +111,11 @@ git push origin nome-da-sua-branch
 - **👨‍👩‍👧 Plano Familiar**: Página com informações sobre o plano familiar, benefícios e carências.
 - **🧍 Plano Individual**: Página com informações sobre o plano individual, benefícios e carências.
 - **📌 Tela de Início**: Página inicial com apresentação dos tipos de planos e benefícios gerais.
+=======
+- **📊 Planos**: Página de início dos planos de saúde ofertados pela Clínica.
+- **🦷 Tipos de Planos**: Página de tipos de planos de saúde ofertados pela Clínica e suas carências.
+- **💰 Aquisição de Planos**: Página de aquisição de planos de saúde ofertados pela Clínica e forma de pagamento.
+>>>>>>> dd64a524dada211f4df44c315ff791e198938da7
 
 ---
 
