@@ -115,7 +115,7 @@ git push origin nome-da-sua-branch
 - **📊 Planos**: Página de início dos planos de saúde ofertados pela Clínica.
 - **🦷 Tipos de Planos**: Página de tipos de planos de saúde ofertados pela Clínica e suas carências.
 - **💰 Aquisição de Planos**: Página de aquisição de planos de saúde ofertados pela Clínica e forma de pagamento.
->>>>>>> dd64a524dada211f4df44c315ff791e198938da7
+
 
 ---
 
